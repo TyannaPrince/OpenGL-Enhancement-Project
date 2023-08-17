@@ -1,0 +1,132 @@
+﻿  bounds.cpp
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\model.h(8,10): fatal  error C1083: Cannot open include file: 'scene.h': No such file or directory
+  linalg.cpp
+  octree.cpp
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\model.h(8,10): fatal  error C1083: Cannot open include file: 'scene.h': No such file or directory
+  ray.cpp
+  mesh.cpp
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\shader.h(10,10): fatal  error C1083: Cannot open include file: 'scene.h': No such file or directory
+  model.cpp
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\model.h(8,10): fatal  error C1083: Cannot open include file: 'scene.h': No such file or directory
+  cubemap.cpp
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\shader.h(10,10): fatal  error C1083: Cannot open include file: 'scene.h': No such file or directory
+  light.cpp
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\shader.h(10,10): fatal  error C1083: Cannot open include file: 'scene.h': No such file or directory
+  material.cpp
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\material.cpp(9,144): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\material.cpp(10,137): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\material.cpp(11,148): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\material.cpp(12,140): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\material.cpp(13,149): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\material.cpp(14,147): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\material.cpp(15,164): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\material.cpp(16,145): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\material.cpp(17,131): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\material.cpp(18,148): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\material.cpp(19,148): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\material.cpp(20,152): warning C4305: 'initializing': truncation from 'double' to 'float'
+  shader.cpp
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\Shader.h(10,10): fatal  error C1083: Cannot open include file: 'scene.h': No such file or directory
+  text.cpp
+C:\Users\Tyann\source\repos\cs499\src\graphics\memory\vertexmemory.hpp(107,1): warning C4312: 'type cast': conversion from 'GLint' to 'void *' of greater size
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\shader.h(10,10): fatal  error C1083: Cannot open include file: 'scene.h': No such file or directory
+  texture.cpp
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\texture.h(7,10): fatal  error C1083: Cannot open include file: 'scene.h': No such file or directory
+  main.cpp
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(68,49): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(91,76): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(196,33): warning C4244: '+=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(241,1): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(242,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(259,1): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(300,25): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\graphics\memory\vertexmemory.hpp(107,1): warning C4312: 'type cast': conversion from 'GLint' to 'void *' of greater size
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\shader.h(64,45): error C2061: syntax error: identifier 'aiColor4D'
+C:\Users\Tyann\source\repos\cs499\src\graphics\memory\uniformmemory.hpp(170,37): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\graphics\memory\uniformmemory.hpp(291,33): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Tyann\source\repos\cs499\src\graphics\memory\uniformmemory.hpp(340,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tyann\source\repos\cs499\src\graphics\models\box.hpp(62,1): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\graphics\models\box.hpp(68,1): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\graphics\models\box.hpp(109,1): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\mesh.h(65,17): error C2065: 'Texture': undeclared identifier
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\mesh.h(65,10): error C2923: 'std::vector': 'Texture' is not a valid template type argument for parameter '_Ty'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\mesh.h(65,17): message : see declaration of 'Texture'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\mesh.h(65,10): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : see declaration of 'std::vector'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\mesh.h(82,41): error C2065: 'Texture': undeclared identifier
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\mesh.h(82,34): error C2923: 'std::vector': 'Texture' is not a valid template type argument for parameter '_Ty'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\mesh.h(82,41): message : see declaration of 'Texture'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\mesh.h(82,34): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : see declaration of 'std::vector'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\mesh.h(97,36): error C2065: 'Texture': undeclared identifier
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\mesh.h(97,29): error C2923: 'std::vector': 'Texture' is not a valid template type argument for parameter '_Ty'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\mesh.h(97,36): message : see declaration of 'Texture'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\mesh.h(97,29): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : see declaration of 'std::vector'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\model.h(118,17): error C2065: 'Texture': undeclared identifier
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\model.h(118,10): error C2923: 'std::vector': 'Texture' is not a valid template type argument for parameter '_Ty'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\model.h(118,17): message : see declaration of 'Texture'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\model.h(118,10): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : see declaration of 'std::vector'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\model.h(140,17): error C2065: 'Texture': undeclared identifier
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\model.h(140,10): error C2923: 'std::vector': 'Texture' is not a valid template type argument for parameter '_Ty'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\model.h(140,17): message : see declaration of 'Texture'
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\model.h(140,10): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector(494,1): message : see declaration of 'std::vector'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\light.h(30,23): error C3646: 'shadowFBO': unknown override specifier
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\light.h(30,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\light.h(75,23): error C3646: 'shadowFBO': unknown override specifier
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\light.h(75,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\light.h(134,23): error C3646: 'shadowFBO': unknown override specifier
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\light.h(134,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Tyann\source\repos\cs499\src\scene.h(68,23): error C3646: 'defaultFBO': unknown override specifier
+C:\Users\Tyann\source\repos\cs499\src\scene.h(68,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Tyann\source\repos\cs499\src\graphics\memory\framememory.hpp(126,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\graphics\models\plane.hpp(44,12): error C2664: 'void Mesh::setupTextures(std::vector)': cannot convert argument 1 from 'std::vector<Texture,std::allocator<Texture>>' to 'std::vector'
+C:\Users\Tyann\source\repos\cs499\src\graphics\models\plane.hpp(44,27): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\Tyann\source\repos\cs499\src\graphics\objects\mesh.h(97,10): message : see declaration of 'Mesh::setupTextures'
+C:\Users\Tyann\source\repos\cs499\src\graphics\models\plane.hpp(44,12): message : while trying to match the argument list '(std::vector<Texture,std::allocator<Texture>>)'
+C:\Users\Tyann\source\repos\cs499\src\main.cpp(204,11): error C2039: 'defaultFBO': is not a member of 'Scene'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\cubemap.h(15,7): message : see declaration of 'Scene'
+C:\Users\Tyann\source\repos\cs499\src\main.cpp(224,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tyann\source\repos\cs499\src\main.cpp(254,15): error C2039: 'defaultFBO': is not a member of 'Scene'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\cubemap.h(15,7): message : see declaration of 'Scene'
+C:\Users\Tyann\source\repos\cs499\src\main.cpp(276,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\main.cpp(281,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\main.cpp(283,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\main.cpp(311,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\main.cpp(332,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  scene.cpp
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(68,49): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(91,76): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(196,33): warning C4244: '+=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(241,1): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(242,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(259,1): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Tyann\source\repos\cs499Enhancement\Linking\include\jsoncpp\json.hpp(300,25): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\texture.h(25,48): error C2061: syntax error: identifier 'aiTextureType'
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\texture.h(52,19): error C3646: 'type': unknown override specifier
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\texture.h(52,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Tyann\source\repos\cs499\src\graphics\rendering\shader.h(64,45): error C2061: syntax error: identifier 'aiColor4D'
+C:\Users\Tyann\source\repos\cs499\src\graphics\memory\vertexmemory.hpp(107,1): warning C4312: 'type cast': conversion from 'GLint' to 'void *' of greater size
+C:\Users\Tyann\source\repos\cs499\src\graphics\memory\framememory.hpp(126,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\graphics\memory\uniformmemory.hpp(170,37): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\graphics\memory\uniformmemory.hpp(291,33): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Tyann\source\repos\cs499\src\graphics\memory\uniformmemory.hpp(340,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tyann\source\repos\cs499\src\graphics\models\box.hpp(62,1): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\graphics\models\box.hpp(68,1): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\graphics\models\box.hpp(109,1): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\scene.cpp(234,80): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned int
+          ]
+C:\Users\Tyann\source\repos\cs499\src\scene.cpp(250,77): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned int
+          ]
+C:\Users\Tyann\source\repos\cs499\src\scene.cpp(366,51): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\scene.cpp(378,37): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Tyann\source\repos\cs499\src\scene.cpp(590,5): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...

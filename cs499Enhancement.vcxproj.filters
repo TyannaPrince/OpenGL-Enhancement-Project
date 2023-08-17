@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\assets">
+      <UniqueIdentifier>{085c82fe-aac3-4a35-a522-0f94c6443cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib">
+      <UniqueIdentifier>{ba8fd54a-edb6-4678-b21a-87dc3b432b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\algorithms">
+      <UniqueIdentifier>{3993c63a-e820-4174-800e-a3512ceea3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{35ed96ea-a10a-4838-a8b8-d20670eb75ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\io">
+      <UniqueIdentifier>{2b67a602-29e8-4735-96d3-00a88f2aeb8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics">
+      <UniqueIdentifier>{e2735448-3f5d-43fd-a81d-789558209ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\algorithms\math">
+      <UniqueIdentifier>{fedf85fe-46f0-4da0-9857-fd7c95c65edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\memory">
+      <UniqueIdentifier>{1f671ea4-2829-4349-ac77-5156e4f5498f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\models">
+      <UniqueIdentifier>{6e0bed99-9bce-4c7d-a547-b66b41ca786d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\objects">
+      <UniqueIdentifier>{642ba22d-daf6-4bd8-9d95-2f9d562a8678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\rendering">
+      <UniqueIdentifier>{6b041a90-dcf3-4707-8737-6f8c42d65f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\fonts">
+      <UniqueIdentifier>{ea087a4d-d5db-44bf-96eb-b57211b7a069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\models">
+      <UniqueIdentifier>{fb6b42e3-6761-4b5a-8861-5c94c017fdc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\models\lotr_troll">
+      <UniqueIdentifier>{5b9dcfeb-3822-4307-bc81-6114289dcd67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\models\m4a1">
+      <UniqueIdentifier>{aeba5744-6bc0-4a43-9f93-4f908ce8285b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\models\sphere">
+      <UniqueIdentifier>{10475a55-5bb7-415f-8c95-07b6b42f1837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\models\lotr_troll\textures">
+      <UniqueIdentifier>{8d21b04e-6b44-4a69-bf33-1690ea617149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\shaders">
+      <UniqueIdentifier>{d5744425-b394-4c48-963e-21e3cd160fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\shaders\instanced">
+      <UniqueIdentifier>{da2f128d-93f1-4d44-95cd-301659d9a26d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\shaders\shadows">
+      <UniqueIdentifier>{e3038b50-ba44-49fe-9940-18df4f623d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\skybox">
+      <UniqueIdentifier>{81864798-ae4a-4505-b54f-fc53de409c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\textures">
+      <UniqueIdentifier>{53e22379-0ffc-47bd-8218-45f22600828f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cs499\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\algorithms\math\linalg.cpp">
+      <Filter>Source Files\algorithms\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\algorithms\avl.cpp">
+      <Filter>Source Files\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\algorithms\bounds.cpp">
+      <Filter>Source Files\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\algorithms\octree.cpp">
+      <Filter>Source Files\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\algorithms\ray.cpp">
+      <Filter>Source Files\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\graphics\objects\mesh.cpp">
+      <Filter>Source Files\graphics\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\graphics\objects\model.cpp">
+      <Filter>Source Files\graphics\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\graphics\rendering\cubemap.cpp">
+      <Filter>Source Files\graphics\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\graphics\rendering\light.cpp">
+      <Filter>Source Files\graphics\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\graphics\rendering\material.cpp">
+      <Filter>Source Files\graphics\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\graphics\rendering\shader.cpp">
+      <Filter>Source Files\graphics\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\graphics\rendering\text.cpp">
+      <Filter>Source Files\graphics\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs499\src\graphics\rendering\texture.cpp">
+      <Filter>Source Files\graphics\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\lib\stb.cpp">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\io\camera.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\io\joystick.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\io\keyboard.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\io\mouse.cpp">
+      <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\physics\collisionmesh.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\physics\collisionmodel.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\physics\environment.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\physics\rigidbody.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cs499\src\scene.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\algorithms\math\linalg.h">
+      <Filter>Source Files\algorithms\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\algorithms\avl.h">
+      <Filter>Source Files\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\algorithms\bounds.h">
+      <Filter>Source Files\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\algorithms\list.hpp">
+      <Filter>Source Files\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\algorithms\octree.h">
+      <Filter>Source Files\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\algorithms\ray.h">
+      <Filter>Source Files\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\algorithms\states.hpp">
+      <Filter>Source Files\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\algorithms\trie.hpp">
+      <Filter>Source Files\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\memory\framememory.hpp">
+      <Filter>Source Files\graphics\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\memory\uniformmemory.hpp">
+      <Filter>Source Files\graphics\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\memory\vertexmemory.hpp">
+      <Filter>Source Files\graphics\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\models\box.hpp">
+      <Filter>Source Files\graphics\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\models\brickwall.hpp">
+      <Filter>Source Files\graphics\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\models\cube.hpp">
+      <Filter>Source Files\graphics\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\models\gun.hpp">
+      <Filter>Source Files\graphics\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\models\lamp.hpp">
+      <Filter>Source Files\graphics\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\models\plane.hpp">
+      <Filter>Source Files\graphics\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\models\sphere.hpp">
+      <Filter>Source Files\graphics\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\objects\mesh.h">
+      <Filter>Source Files\graphics\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\objects\model.h">
+      <Filter>Source Files\graphics\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\rendering\cubemap.h">
+      <Filter>Source Files\graphics\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\rendering\light.h">
+      <Filter>Source Files\graphics\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\rendering\material.h">
+      <Filter>Source Files\graphics\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\rendering\shader.h">
+      <Filter>Source Files\graphics\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\rendering\text.h">
+      <Filter>Source Files\graphics\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs499\src\graphics\rendering\texture.h">
+      <Filter>Source Files\graphics\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\io\camera.h">
+      <Filter>Source Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\io\joystick.h">
+      <Filter>Source Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\io\keyboard.h">
+      <Filter>Source Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\io\mouse.h">
+      <Filter>Source Files\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\physics\collisionmesh.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\physics\collisionmodel.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\physics\environment.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\src\physics\rigidbody.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\cs499\assets\fonts\comic.ttf">
+      <Filter>Source Files\assets\fonts</Filter>
+    </Font>
+    <Font Include="..\cs499\assets\fonts\comicbd.ttf">
+      <Filter>Source Files\assets\fonts</Filter>
+    </Font>
+    <Font Include="..\cs499\assets\fonts\comici.ttf">
+      <Filter>Source Files\assets\fonts</Filter>
+    </Font>
+    <Font Include="..\cs499\assets\fonts\comicz.ttf">
+      <Filter>Source Files\assets\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\cs499\assets\models\lotr_troll\textures\TEX_Troll_normal.png">
+      <Filter>Source Files\assets\models\lotr_troll\textures</Filter>
+    </Image>
+    <Image Include="..\cs499\assets\models\lotr_troll\textures\TEX_pants_baseColor.png">
+      <Filter>Source Files\assets\models\lotr_troll\textures</Filter>
+    </Image>
+    <Image Include="..\cs499\assets\models\lotr_troll\textures\TEX_pants_metallicRoughness.png">
+      <Filter>Source Files\assets\models\lotr_troll\textures</Filter>
+    </Image>
+    <Image Include="..\cs499\assets\models\lotr_troll\textures\TEX_pants_normal.png">
+      <Filter>Source Files\assets\models\lotr_troll\textures</Filter>
+    </Image>
+    <Image Include="..\cs499\assets\models\lotr_troll\textures\TEX_Troll_baseColor.jpeg">
+      <Filter>Source Files\assets\models\lotr_troll\textures</Filter>
+    </Image>
+    <Image Include="..\cs499\assets\models\lotr_troll\textures\TEX_Troll_emissive.jpeg">
+      <Filter>Source Files\assets\models\lotr_troll\textures</Filter>
+    </Image>
+    <Image Include="..\cs499\assets\models\lotr_troll\textures\TEX_Troll_metallicRoughness.png">
+      <Filter>Source Files\assets\models\lotr_troll\textures</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\skybox\back.png">
+      <Filter>Source Files\assets\skybox</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\skybox\bottom.png">
+      <Filter>Source Files\assets\skybox</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\skybox\front.png">
+      <Filter>Source Files\assets\skybox</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\skybox\left.png">
+      <Filter>Source Files\assets\skybox</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\skybox\right.png">
+      <Filter>Source Files\assets\skybox</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\skybox\skybox_template.png">
+      <Filter>Source Files\assets\skybox</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\skybox\top.png">
+      <Filter>Source Files\assets\skybox</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\textures\brickwall_diffuse.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\textures\brickwall_normal.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\textures\brickwall_specular.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\textures\flag.png">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\textures\flag_specular.png">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\textures\image1.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\textures\image2.png">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\models\lotr_troll\scene.bin">
+      <Filter>Source Files\assets\models\lotr_troll</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\models\lotr_troll\scene.gltf">
+      <Filter>Source Files\assets\models\lotr_troll</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\models\m4a1\scene.bin">
+      <Filter>Source Files\assets\models\m4a1</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\models\m4a1\scene.gltf">
+      <Filter>Source Files\assets\models\m4a1</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\models\sphere\scene.bin">
+      <Filter>Source Files\assets\models\sphere</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\models\sphere\scene.gltf">
+      <Filter>Source Files\assets\models\sphere</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\instanced\box.fs">
+      <Filter>Source Files\assets\shaders\instanced</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\instanced\box.vs">
+      <Filter>Source Files\assets\shaders\instanced</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\instanced\instanced.vs">
+      <Filter>Source Files\assets\shaders\instanced</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\shadows\dirShadow.fs">
+      <Filter>Source Files\assets\shaders\shadows</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\shadows\dirSpotShadow.vs">
+      <Filter>Source Files\assets\shaders\shadows</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\shadows\pointShadow.gs">
+      <Filter>Source Files\assets\shaders\shadows</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\shadows\pointShadow.vs">
+      <Filter>Source Files\assets\shaders\shadows</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\shadows\pointSpotShadow.fs">
+      <Filter>Source Files\assets\shaders\shadows</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\buffer.fs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\buffer.vs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\defaultHead.gh">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\depth.fs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\lamp.fs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\object.fs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\object.vs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\outline.fs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\outline.vs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\test.vs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\text.fs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\shaders\text.vs">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\skybox\sky.fs">
+      <Filter>Source Files\assets\skybox</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\skybox\skybox.fs">
+      <Filter>Source Files\assets\skybox</Filter>
+    </None>
+    <None Include="..\..\..\OneDrive\Desktop\yt-tutorials-master\CPP\OpenGL\OpenGLTutorial\OpenGLTutorial\assets\skybox\skybox.vs">
+      <Filter>Source Files\assets\skybox</Filter>
+    </None>
+  </ItemGroup>
+</Project>
