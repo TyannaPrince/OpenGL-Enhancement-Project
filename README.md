@@ -1,5 +1,5 @@
 <h2>Informal Code Review:</h2>
-<p>My informal code review has been added as a video file above</p>
+<p>To watch the informal code review video click <a href="https://youtu.be/rdDpVOjwIm8" target="_blank"> HERE</a> or you can go directly to the video: https://youtu.be/rdDpVOjwIm8 </p>
 
 <h2>Software Design and Engineering: </h2>
 <p>I chose to enhance my computer graphics and visualization project (OpenGL 3D scene) where my goal was to use OpenGL libraries to create a 3D model from a 2D image. You can see the original project <a href="https://github.com/TyannaPrince/OpenGL-enhanced-3D-scene" target="_blank"> HERE</a></p>
