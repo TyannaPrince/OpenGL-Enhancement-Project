@@ -1,8 +1,26 @@
+/*****************************************************************
+ *   Author: Tyanna Prince
+ *   Date: 07/15/2023
+ *   Description: An enhancement of my cs330 OpenGL project where I added functionality such as charater movement,
+ *  directional lighting, and shadow mapping, a cubemap, and joystick support.
+ *  copyright (c) 2023 Tyanna Prince
+ *  version 2.0
+ *****************************************************************/
+
 #include <glm/glm.hpp>
 
 #ifndef LINALG_HPP
 #define LINALG_HPP
 
+/**
+ * Calculates the square of the magnitude of a vector in D-dimensional space.
+ *
+ * @param v the vector for which the square of the magnitude is to be calculated
+ *
+ * @return the square of the magnitude of the vector
+ *
+ * @throws None
+ */
 template <int D>
 float magsq(glm::vec<D, float, glm::packed_highp> v) {
     float ret = 0.0f;
@@ -56,6 +74,13 @@ bool faceContainsPointRange(glm::vec3 A, glm::vec3 B, glm::vec3 N, glm::vec3 poi
 
 bool faceContainsPoint(glm::vec3 A, glm::vec3 B, glm::vec3 N, glm::vec3 point);
 
+/**
+ * Performs row reduction on a matrix using Gaussian elimination.
+ *
+ * @param m the matrix to be row reduced
+ *
+ * @throws ErrorType if the matrix is not square or if it is not of dimension C x R
+ */
 template <int C, int R>
 void rref(glm::mat<C, R, float>& m) {
     unsigned int currentRow = 0;

@@ -1,3 +1,12 @@
+/*****************************************************************
+ *   Author: Tyanna Prince
+ *   Date: 07/15/2023
+ *   Description: An enhancement of my cs330 OpenGL project where I added functionality such as charater movement,
+ *  directional lighting, and shadow mapping, a cubemap, and joystick support.
+ *  copyright (c) 2023 Tyanna Prince
+ *  version 2.0
+ *****************************************************************/
+
 #include "ray.h"
 
 #include "../algorithms/math/linalg.h"
@@ -10,6 +19,17 @@ Ray::Ray(glm::vec3 origin, glm::vec3 dir)
 	}
 }
 
+/**
+ * Check if the ray intersects with a given bounding region.
+ *
+ * @param br The bounding region to check for intersection.
+ * @param tmin The minimum intersection distance.
+ * @param tmax The maximum intersection distance.
+ *
+ * @return True if the ray intersects with the bounding region, false otherwise.
+ *
+ * @throws None.
+ */
 bool Ray::intersectsBoundingRegion(BoundingRegion br, float& tmin, float& tmax) {
 	if (br.type == BoundTypes::AABB) {
 		// slab algorithm
@@ -54,6 +74,15 @@ bool Ray::intersectsBoundingRegion(BoundingRegion br, float& tmin, float& tmax) 
 	}
 }
 
+/**
+ * Check if a ray intersects a collision mesh.
+ *
+ * @param mesh The collision mesh to check against.
+ * @param rb The rigid body associated with the mesh.
+ * @param t The distance from the origin to the intersection point (output parameter).
+ *
+ * @return True if the ray intersects the mesh, false otherwise.
+ */
 bool Ray::intersectsMesh(CollisionMesh* mesh, RigidBody* rb, float& t) {
 	bool intersects = false;
 

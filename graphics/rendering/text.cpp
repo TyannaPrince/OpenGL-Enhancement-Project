@@ -1,3 +1,12 @@
+/*****************************************************************
+ *   Author: Tyanna Prince
+ *   Date: 07/15/2023
+ *   Description: An enhancement of my cs330 OpenGL project where I added functionality such as charater movement,
+ *  directional lighting, and shadow mapping, a cubemap, and joystick support.
+ *  copyright (c) 2023 Tyanna Prince
+ *  version 2.0
+ *****************************************************************/
+
 #include "text.h"
 
 TextRenderer::TextRenderer() {}
@@ -5,6 +14,16 @@ TextRenderer::TextRenderer() {}
 TextRenderer::TextRenderer(int height)
 	: height(height) {}
 
+/**
+ * Loads a font using the FreeType library.
+ *
+ * @param ft The FreeType library instance.
+ * @param path The path to the font file.
+ *
+ * @return true if the font is loaded successfully, false otherwise.
+ *
+ * @throws None
+ */
 bool TextRenderer::loadFont(FT_Library& ft, std::string path) {
 	FT_Face fontFace;
 
@@ -77,6 +96,18 @@ bool TextRenderer::loadFont(FT_Library& ft, std::string path) {
 	return true;
 }
 
+/**
+ * Renders the specified text using the given shader.
+ *
+ * @param shader The shader used for rendering the text.
+ * @param text The text to be rendered.
+ * @param x The x-coordinate of the starting position of the text.
+ * @param y The y-coordinate of the starting position of the text.
+ * @param scale The scale factor to be applied to the text.
+ * @param color The color of the text.
+ *
+ * @throws ErrorType If there is an error during rendering.
+ */
 void TextRenderer::render(Shader shader, std::string text, float x, float y, glm::vec2 scale, glm::vec3 color) {
 	shader.activate();
 	shader.set3Float("textColor", color);
@@ -125,6 +156,15 @@ void TextRenderer::render(Shader shader, std::string text, float x, float y, glm
 	glBindTexture(GL_TEXTURE_2D, 0);
 }
 
+/**
+ * Cleans up the TextRenderer object.
+ *
+ * @param None
+ *
+ * @return None
+ *
+ * @throws None
+ */
 void TextRenderer::cleanup() {
 	VAO.cleanup();
 }

@@ -1,3 +1,12 @@
+/*****************************************************************
+ *   Author: Tyanna Prince
+ *   Date: 07/15/2023
+ *   Description: An enhancement of my cs330 OpenGL project where I added functionality such as charater movement,
+ *  directional lighting, and shadow mapping, a cubemap, and joystick support.
+ *  copyright (c) 2023 Tyanna Prince
+ *  version 2.0
+ *****************************************************************/
+
 #include "mesh.h"
 
 #include <iostream>
@@ -30,6 +39,17 @@ std::vector<Vertex> Vertex::genList(float* vertices, int noVertices) {
     return ret;
 }
 
+/**
+ * Calculates the average of a vector and an additional vector, taking into account existing contributions.
+ *
+ * @param baseVec The base vector to be averaged.
+ * @param addition The additional vector to be averaged.
+ * @param existingContributions The number of existing contributions to the average.
+ *
+ * @return void
+ *
+ * @throws None
+ */
 void averageVectors(glm::vec3& baseVec, glm::vec3 addition, unsigned char existingContributions) {
     if (!existingContributions) {
         baseVec = addition;

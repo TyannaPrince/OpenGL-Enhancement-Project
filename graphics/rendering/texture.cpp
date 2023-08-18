@@ -1,3 +1,12 @@
+/*****************************************************************
+ *   Author: Tyanna Prince
+ *   Date: 07/15/2023
+ *   Description: An enhancement of my cs330 OpenGL project where I added functionality such as charater movement,
+ *  directional lighting, and shadow mapping, a cubemap, and joystick support.
+ *  copyright (c) 2023 Tyanna Prince
+ *  version 2.0
+ *****************************************************************/
+
 #include "texture.h"
 
 #include <iostream>
@@ -57,10 +66,32 @@ void Texture::load(bool flip) {
     stbi_image_free(data);
 }
 
+/**
+ * Allocates a texture with the specified format, width, height, and type.
+ *
+ * @param format the format of the texture
+ * @param width the width of the texture
+ * @param height the height of the texture
+ * @param type the type of the texture
+ *
+ * @throws ErrorType a description of the error that may occur
+ */
 void Texture::allocate(GLenum format, GLuint width, GLuint height, GLenum type) {
     glTexImage2D(GL_TEXTURE_2D, 0, format, width, height, 0, format, type, NULL);
 }
 
+/**
+ * Sets the parameters for a texture.
+ *
+ * @param texMinFilter The texture minification filter.
+ * @param texMagFilter The texture magnification filter.
+ * @param wrapS The texture wrap mode in the S direction.
+ * @param wrapT The texture wrap mode in the T direction.
+ *
+ * @return void
+ *
+ * @throws None
+ */
 void Texture::setParams(GLenum texMinFilter, GLenum texMagFilter, GLenum wrapS, GLenum wrapT) {
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, texMinFilter);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, texMagFilter);
@@ -73,6 +104,15 @@ void Texture::bind() {
     glBindTexture(GL_TEXTURE_2D, id);
 }
 
+/**
+ * Cleans up the texture by deleting the associated OpenGL texture object.
+ *
+ * @param None
+ *
+ * @return None
+ *
+ * @throws None
+ */
 void Texture::cleanup() {
     glDeleteTextures(1, &id);
 }

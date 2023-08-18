@@ -1,3 +1,12 @@
+/*****************************************************************
+ *   Author: Tyanna Prince
+ *   Date: 07/15/2023
+ *   Description: An enhancement of my cs330 OpenGL project where I added functionality such as charater movement,
+ *  directional lighting, and shadow mapping, a cubemap, and joystick support.
+ *  copyright (c) 2023 Tyanna Prince
+ *  version 2.0
+ *****************************************************************/
+
 #include <iostream>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
@@ -60,6 +69,13 @@ std::string Shader::defaultDirectory = "assets/shaders";
 
 #include "physics/collisionmesh.h"
 
+/**
+ * Main function that initializes the scene, shaders, fonts, models, lights, and other objects, and runs the main loop to render the scene.
+ *
+ * @return 0 on successful execution
+ *
+ * @throws None
+ */
 int main() {
     std::cout << "Hello, OpenGL!" << std::endl;
 
@@ -271,6 +287,13 @@ int main() {
     return 0;
 }
 
+/**
+ * Renders the scene using the specified shader.
+ *
+ * @param shader the shader to use for rendering
+ *
+ * @throws ErrorType if there is an error during rendering
+ */
 void renderScene(Shader shader) {
     if (sphere.currentNoInstances > 0) {
         scene.renderInstances(sphere.id, shader, dt);
@@ -283,6 +306,13 @@ void renderScene(Shader shader) {
     scene.renderInstances(wall.id, shader, dt);
 }
 
+/**
+ * Launches an item in the scene.
+ *
+ * @param dt the time step for the simulation
+ *
+ * @throws ErrorType if the instance generation fails
+ */
 void launchItem(float dt) {
     RigidBody* rb = scene.generateInstance(sphere.id, glm::vec3(0.1f), 1.0f, cam.cameraPos);
     if (rb) {
@@ -292,6 +322,15 @@ void launchItem(float dt) {
     }
 }
 
+/**
+ * Emits a ray and checks for collisions with the scene's objects.
+ *
+ * @param None
+ *
+ * @return None
+ *
+ * @throws None
+ */
 void emitRay() {
     Ray r(cam.cameraPos, cam.cameraFront);
 
@@ -306,6 +345,13 @@ void emitRay() {
     }
 }
 
+/**
+ * Processes the input for the given time interval.
+ *
+ * @param dt The time interval for which the input should be processed.
+ *
+ * @throws ErrorType Description of any possible errors that can occur during the input processing.
+ */
 void processInput(double dt) {
     // process input with cameras
     scene.processInput(dt);

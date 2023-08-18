@@ -1,3 +1,12 @@
+/*****************************************************************
+ *   Author: Tyanna Prince
+ *   Date: 07/15/2023
+ *   Description: An enhancement of my cs330 OpenGL project where I added functionality such as charater movement,
+ *  directional lighting, and shadow mapping, a cubemap, and joystick support.
+ *  copyright (c) 2023 Tyanna Prince
+ *  version 2.0
+ *****************************************************************/
+
 #include "cubemap.h"
 
 #include "../../scene.h"
@@ -5,14 +14,41 @@
 Cubemap::Cubemap()
     : hasTextures(false) {}
 
+/**
+ * Generates the cubemap texture.
+ *
+ * @param None
+ *
+ * @return None
+ *
+ * @throws None
+ */
 void Cubemap::generate() {
     glGenTextures(1, &id);
 }
 
+/**
+ * Binds the cubemap texture.
+ *
+ * @throws ErrorType description of error
+ */
 void Cubemap::bind() {
     glBindTexture(GL_TEXTURE_CUBE_MAP, id);
 }
 
+/**
+ * Loads and sets the textures for a cubemap.
+ *
+ * @param _dir The directory path where the textures are located.
+ * @param right The filename of the texture for the right face of the cubemap.
+ * @param left The filename of the texture for the left face of the cubemap.
+ * @param top The filename of the texture for the top face of the cubemap.
+ * @param bottom The filename of the texture for the bottom face of the cubemap.
+ * @param front The filename of the texture for the front face of the cubemap.
+ * @param back The filename of the texture for the back face of the cubemap.
+ *
+ * @throws std::runtime_error If the textures fail to load.
+ */
 void Cubemap::loadTextures(std::string _dir,
     std::string right,
     std::string left,
@@ -58,6 +94,18 @@ void Cubemap::loadTextures(std::string _dir,
     glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_R, GL_CLAMP_TO_EDGE);
 }
 
+/**
+ * Allocates memory for a cubemap texture.
+ *
+ * @param format the format of the texture
+ * @param width the width of the texture
+ * @param height the height of the texture
+ * @param type the type of the texture
+ *
+ * @return void
+ *
+ * @throws ErrorType if there is an error allocating the memory
+ */
 void Cubemap::allocate(GLenum format, GLuint width, GLuint height, GLenum type) {
     hasTextures = true;
 
@@ -73,6 +121,11 @@ void Cubemap::allocate(GLenum format, GLuint width, GLuint height, GLenum type) 
     glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_R, GL_CLAMP_TO_EDGE);
 }
 
+/**
+ * Initializes the Cubemap.
+ *
+ * @throws ErrorType description of error
+ */
 void Cubemap::init() {
     // set up vertices
     float skyboxVertices[] = {
@@ -138,6 +191,14 @@ void Cubemap::init() {
     ArrayObject::clear();
 }
 
+/**
+ * Renders the cubemap using the specified shader and scene.
+ *
+ * @param shader The shader to use for rendering.
+ * @param scene The scene containing the active camera and projection matrix.
+ *
+ * @throws None
+ */
 void Cubemap::render(Shader shader, Scene *scene) {
     glDepthMask(GL_FALSE);
 
@@ -159,6 +220,15 @@ void Cubemap::render(Shader shader, Scene *scene) {
     glDepthMask(GL_TRUE);
 }
 
+/**
+ * Cleans up the Cubemap object.
+ *
+ * @param None
+ *
+ * @return None
+ *
+ * @throws None
+ */
 void Cubemap::cleanup() {
     VAO.cleanup();
 }

@@ -1,9 +1,30 @@
+/*****************************************************************
+ *   Author: Tyanna Prince
+ *   Date: 07/15/2023
+ *   Description: An enhancement of my cs330 OpenGL project where I added functionality such as charater movement,
+ *  directional lighting, and shadow mapping, a cubemap, and joystick support.
+ *  copyright (c) 2023 Tyanna Prince
+ *  version 2.0
+ *****************************************************************/
+
 #include "collisionmesh.h"
 #include "collisionmodel.h"
 #include "rigidbody.h"
 
 #include "../algorithms/math/linalg.h"
 
+/**
+ * Checks if the current face collides with another face.
+ *
+ * @param thisRB Pointer to the RigidBody object of the current face.
+ * @param face The other face to check collision with.
+ * @param faceRB Pointer to the RigidBody object of the other face.
+ * @param retNorm The resulting normal of the collision.
+ *
+ * @return True if collision occurs, False otherwise.
+ *
+ * @throws None.
+ */
 bool Face::collidesWithFace(RigidBody* thisRB, Face& face, RigidBody* faceRB, glm::vec3& retNorm) {
 	// transform coordinates so that P1 is the origin
 	glm::vec3 P1 = mat4vec3mult(thisRB->model, this->mesh->points[this->i1]);
@@ -97,6 +118,15 @@ bool Face::collidesWithFace(RigidBody* thisRB, Face& face, RigidBody* faceRB, gl
 	return false;
 }
 
+/**
+ * Checks if the face collides with a sphere.
+ *
+ * @param thisRB the RigidBody object
+ * @param br the BoundingRegion object
+ * @param retNorm the reference to the glm::vec3 object to store the returned normal
+ *
+ * @return true if the face collides with the sphere, false otherwise
+ */
 bool Face::collidesWithSphere(RigidBody* thisRB, BoundingRegion& br, glm::vec3& retNorm) {
 	if (br.type != BoundTypes::SPHERE) {
 		return false;
