@@ -13,4 +13,11 @@
     <p>I demonstrate databases by adding additional OpenGL libraries in the new design. Adding movement of objects such as the snowfall in a city brought the 3D model to life. Array data structures were also used throughout the code which stores items at contiguous memory locations. GitHub is also a database to which this project was uploaded as well as my GitHub pages website. </p>
     
     
+<h2>Original Project</h2>
+
+![final project](https://github.com/TyannaPrince/OpenGL-Enhancement-Project/assets/77767907/a0df5d8c-ec21-44d8-a5be-254098770e11)
+
+<h2>Enhancement add-on with snow and building</h2>
+
+![snow and building ](https://github.com/TyannaPrince/OpenGL-Enhancement-Project/assets/77767907/600e31aa-7cd1-4033-937a-e21f85f223f9)
 
